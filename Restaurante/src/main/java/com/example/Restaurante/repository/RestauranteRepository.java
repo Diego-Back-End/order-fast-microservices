@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.Restaurante.model.Restaurante;
 
-// RestauranteRepository
 @Repository
-public interface RestauranteRepository extends JpaRepository<Restaurante, Long> {}
+public interface RestauranteRepository extends JpaRepository<Restaurante, Long> {
+}
 
